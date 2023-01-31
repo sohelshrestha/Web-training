@@ -1,0 +1,72 @@
+* {
+    color:green;
+   }
+   
+   /**
+   Element selector
+   **/
+
+   h1 {
+    color: green;
+   }
+
+   /**
+   class selector
+   **/
+
+   .csit{
+    color: blue;
+   }
+
+   /**
+   Id selector
+   **/
+   #unix{
+    color: purple;
+   }
+
+   .message{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aqua;
+   }
+
+   .success, .error{
+    color: white;
+   }
+
+   .success{
+    background-color: green;
+   }
+
+   .error{
+    background-color: red;
+   }
+
+   /** Chaining Selectors
+   **/
+   .messege.success{
+    background-color: green;
+   }
+
+   .messege{
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: justify;
+   }
+   img{
+    width: 600px;
+    height: 500px;
+   }
+.center{
+    text-align: center;
+}
+
+body{
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=VBEdy%2bne&id=C29ED6EDBA86D8BB14B871726DB598C97D3F7C05&thid=OIP.VBEdy-netpWWaDYJOcw17wHaEK&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.54111dcbe9deb6959668360939cc35ef%3frik%3dBXw%252ffcmYtW1ycQ%26riu%3dhttp%253a%252f%252fyesofcorsa.com%252fwp-content%252fuploads%252f2017%252f01%252fCyberpunk-Wallpaper.jpg%26ehk%3de668NE80NYlKXU9gzJI3V8CRlS6Ew7lZbjLGko%252bTDcg%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2531&expw=4500&q=cyberpunk&simid=608036836899036855&FORM=IRPRST&ck=87E4BAE3EA8E9F179104AA7B4C458498&selectedIndex=16&ajaxhist=0&ajaxserp=0);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(red,blue,green);
+}
