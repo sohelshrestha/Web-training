@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: aqua;
+    background-color: pink;
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+}
+
+.menu{
+    width:900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+hero-container{
+    background-color: green;
+}
+
+.hero{
+    background-color: brown;
+    display: flex;
+    width: 900px;
+    height: 400px;
+    align-items: center;
+    
+}
+footer{
+    background-color: red;
+    padding: 10px;
+    display: flex;
+}
+
+.number{
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+one{
+    background-color: red;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+
+two{
+    background-color: blue;
+    display: flex;
+    width: 600px;
+    height: 200px;
+}
+
+three{
+    background-color: yellow;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+
+four{
+    background-color: green;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+ 
+five{
+    background-color: pink;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
