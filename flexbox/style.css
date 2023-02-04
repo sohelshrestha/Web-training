@@ -37,54 +37,14 @@ hero-container{
     align-items: center;
     
 }
-footer{
-    background-color: red;
-    padding: 10px;
-    display: flex;
-}
 
-.number{
-    width:600px;
+.image-container{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
 }
-
-one{
-    background-color: red;
+.images{
+    width: 900px;
     display: flex;
-    width: 600px;
-    height: 200px;
-    align-items: center;
-}
-
-two{
-    background-color: blue;
-    display: flex;
-    width: 600px;
-    height: 200px;
-}
-
-three{
-    background-color: yellow;
-    display: flex;
-    width: 600px;
-    height: 200px;
-    align-items: center;
-}
-
-four{
-    background-color: green;
-    display: flex;
-    width: 600px;
-    height: 200px;
-    align-items: center;
-}
- 
-five{
-    background-color: pink;
-    display: flex;
-    width: 600px;
-    height: 200px;
-    align-items: center;
+    flex-direction: column;
+    
 }
