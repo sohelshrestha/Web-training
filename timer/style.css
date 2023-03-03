@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: color rgb(214, 9, 214);
+    font-size:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.timer-container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container{
+    display:flex;
+}
+
+.timer-button{
+    background:none;
+    border:0;
+    cursor:crosshair;
+    color:white;
+    font-size:2em;
+    text-transform: uppercase;
+    background: blue;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.timer-button:hover{
+  background: rgba(0,0,0,0.2);
+}
+
+.timer-display{
+    display:flex;
+    flex-direction:column;
+}
+
+.time-left{
+    font-size:10em;
+    color:aqua;
+    text-shadow: 4px 5px 0 rgba(0,0,0,0.1);
+}
